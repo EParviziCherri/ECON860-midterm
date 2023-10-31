@@ -1,7 +1,7 @@
 # ECON860-midterm
 part1:
- I started with requesting to get data from the website and then used the information from the request to parse the Login IDs.
-
+I started with requesting to get data from the website and then used the information from the request to parse the Login IDs.
+I add my token into .gitignore file , to keep it hidden to the other users.
 Web_request.py: 
 1- I checked if a folder named "html_files" exists, and if not, I creates this folder using os.mkdir("html_files").
 2- I opened a file named "token" in read mode and reads its content into the variable token (in order to have access to more GitHub usernames).
